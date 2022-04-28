@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+.title {
+  margin: 0 10px;
+}
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin: 5px;
+  float: right;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 20%;
+  height: 33%;
+  background-color: blueviolet;
+  margin: 1%;
+}
+
+.head {
+  display: inline;
+  float: right;
+  /* background-color: brown; */
+}
+.head > span {
+  margin: 2px;
+  background-color: blue;
+}
